@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form </title>
+    <link rel="stylesheet" href="styleg.css">
+    <link rel="shortcut icon" href="images/la santé.png" type="x-icon">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="">
+        <div class="txt_field">
+          <input type="text" name="loginUser" id="email" required >
+          <span></span>
+          <label for="loginUser">Email address</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="loginpassword" id="password" required>
+          <span></span>
+          <label for="loginpassword">Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login" onclick="auth()">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+<script>
+  function auth(){
+    var email=document.getElementById("email").value;
+    var password=document.getElementById("password").value;
+    if(email=="admin@gmail.com" && password=="admin123"){
+      window.location.assign("index.html")
+      alert("login successfully");
+    }
+  }
+</script>
+  </body>
+</html>

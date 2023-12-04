@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="Sstylee.css"/>
+  </head>
+  <body class="bodyy">
+    <div class="container3">
+      <h1 class="form-title">Contact Us</h1>
+      <form>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="Name">Name</label>
+            <input type="text"
+                    id="Name"
+                   
+                    placeholder="Enter Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="_code">Country code:</label>
+  <input type="text" id="code" placeholder="KSA"  title="Three letter country code">
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required
+                    placeholder="Enter Email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Enter Phone Number"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <input class="form-submit-btn text-l" type="submit"></input>
+      </form>
+    </div>
+  </body>
+</html>

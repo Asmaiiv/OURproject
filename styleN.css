@@ -1,0 +1,71 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: Rgb(91, 101, 91);
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nutritionist {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.Btn {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  transition: 0.5s all;
+  max-height: 100px;
+}
+
+footer {
+  background-color: Rgb(91, 101, 91);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-family: sans-serif;
+}
+
+.Btn:hover {
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgb(7, 145, 145);
+}
+
+.collapsed {
+  max-height: 100px; /* Adjust the initial height of the paragraph */
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  display: none;
+}

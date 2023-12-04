@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 50px;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: rgb(91, 101, 91);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.club-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  height: auto;
+}
+
+h2 {
+  margin-top: 10px;
+  color: #000000;
+}
+
+strong {
+  color: rgb(91, 101, 91);
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+}
+
+i {
+  font-size: 50px;
+}
+
+#image1 {
+  height: 800px;
+}
+
+#food-introduction {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#food-table {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2eeee;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+
+@media (max-width: 702px) {
+  header {
+    width: 85%;
+  }
+}

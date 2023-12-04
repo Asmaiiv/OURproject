@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div>
+        <a href="Prg.html"><img style="height:100px ;width:100px" src="images/logo.bottom.png" alt="logo Home"></a>
+          </div>
+   <link rel="stylesheet" href="Sstylee.css">  
+   <link rel="shortcut icon" href="images/la santé.png" type="x-icon">
+   <title>About Us</title>
+
+</head>
+<body class="bodyback">
+    <div class="center">
+        <div class="text-xl">Group Members:</div>
+        <script>
+            window.onload = function() {
+                shuffleList();
+            };
+            
+            function shuffleList() {
+                var ul = document.getElementById('randomList');
+                for (var i = ul.children.length; i >= 0; i--) {
+                    ul.appendChild(ul.children[Math.random() * i | 0]);
+                }
+            }
+            </script>
+        <ol id="randomList">
+           <li>Raghad ibrahim</li>
+           <li>Asma Alshamrani</li>
+           <li>Asayel </li>
+           <li>Anbara Zayn </li>
+        </ol>
+        <br>
+        <Div class="text-l">
+            <p>Internet and Web Technology </p>
+            <p>Division: 655</p>
+        </Div>
+    </div>
+</body>
+</html>
